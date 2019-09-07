@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-link is-fullheight-with-navbar">
+  <section class="hero is-dark is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
         <p class="title">
@@ -20,16 +20,12 @@ export default {
     }
   },
   data () {
-    return {
-    }
+    return {}
   },
-  computed: {
-  },
-  methods: {
-  }
+  computed: {},
+  methods: {}
 }
 </script>
 
 <style scoped>
-
 </style>
