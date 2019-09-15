@@ -1,10 +1,11 @@
 <template>
-  <section class="hero is-dark is-fullheight-with-navbar">
+  <section class="hero work-in-progress is-fullheight-with-navbar" :style="{'background-color': mainColor}">
     <div class="hero-body">
       <div class="container">
-        <p class="title">
+        <p class="title is-1">
           {{sectionTitle}}
         </p>
+        <slot></slot>
       </div>
     </div>
   </section>
@@ -15,6 +16,10 @@ export default {
   name: 'FullPageSection',
   props: {
     sectionTitle: {
+      type: String,
+      required: true
+    },
+    mainColor: {
       type: String,
       required: true
     }

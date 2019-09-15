@@ -5,15 +5,17 @@
         <a class="navbar-item">
           <img src="./assets/logo_v2.png" alt="Condomínio Técnico" class="page-logo">
         </a>
-
-      </div>
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-          <p class="navbar-item title"> Condomínio Técnico</p>
-        </div>
+        <p class="navbar-item title"> Condomínio Técnico</p>
       </div>
     </nav>
-    <FullPageSection :section-title="'Página em Construção'"></FullPageSection>
+    <FullPageSection :section-title="'Contactos'" mainColor="#DADADA">
+      <div>
+        <p><strong>Francisco Gomes:</strong> 913 931 027</p>
+      </div>
+    </FullPageSection>
+    <FullPageSection :section-title="'Página em Construção'" mainColor="#03ADFF">
+      <img src="./assets/ducky.png" alt="Site is a work in progress">
+    </FullPageSection>
   </div>
 </template>
 
