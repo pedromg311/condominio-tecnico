@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b4636eeadf7c2c80170d4a9cc8649ea3.js"
+  "/precache-manifest.c5da09f0c3901ed8e9bd82ab48ea9203.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "condominio-tecnico"});
