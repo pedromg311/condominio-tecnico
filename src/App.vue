@@ -5,7 +5,7 @@
         <a class="navbar-item">
           <img src="./assets/logo_v2.png" alt="Condomínio Técnico" class="page-logo">
         </a>
-        <p class="navbar-item title"> Condomínio Técnico</p>
+        <p class="navbar-title navbar-item title is-4"> Condomínio Técnico</p>
       </div>
     </nav>
     <FullPageSection :section-title="'Contactos'" mainColor="#DADADA">
@@ -45,5 +45,9 @@ export default {
     max-height: 4rem;
     height: auto;
     width: 4rem;
+  }
+
+  .navbar-title {
+    flex: 1;
   }
 </style>
